@@ -100,7 +100,7 @@
         <dependency>
             <groupId>me.hsgamer</groupId>
             <artifactId>bettergui</artifactId>
-            <version>7.0</version>
+            <version>7.1</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
