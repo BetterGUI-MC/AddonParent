@@ -6,12 +6,12 @@
 
     <groupId>me.hsgamer.bettergui</groupId>
     <artifactId>addon-parent</artifactId>
-    <version>3.2</version>
+    <version>4.0</version>
     <packaging>pom</packaging>
 
     <properties>
         <java.version>1.8</java.version>
-        <plugin.version>9.5</plugin.version>
+        <plugin.version>10.0</plugin.version>
         <license.packageName>me.hsgamer.bettergui.lib.license</license.packageName>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
@@ -60,6 +60,12 @@
                                 <relocation>
                                     <pattern>me.hsgamer.hscore</pattern>
                                     <shadedPattern>me.hsgamer.bettergui.lib.core</shadedPattern>
+                                </relocation>
+
+                                <!-- MineLib -->
+                                <relocation>
+                                    <pattern>io.github.projectunified.minelib</pattern>
+                                    <shadedPattern>me.hsgamer.bettergui.lib.minelib</shadedPattern>
                                 </relocation>
 
                                 <!-- bStats -->
