@@ -11,7 +11,7 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <plugin.version>10.0</plugin.version>
+        <plugin.version>10.2</plugin.version>
         <license.packageName>me.hsgamer.bettergui.lib.license</license.packageName>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
